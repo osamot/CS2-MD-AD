@@ -1,0 +1,16 @@
+The 2001 tungsten (W) potential by Zhou can be found in the potentials
+directory in the LAMMPS source distribution.
+
+It can also be found on OpenKIM:
+
+   https://openkim.org/files/MO_621445647666_000/W_zhou.eam.alloy
+
+I have created a verion with shorter cutoff and smaller table, named
+W_Zhou_short.eam.alloy. It has 501 potnts in the interpolation table
+compared to 10001, and the cutoff is ~5.5A instead of ~8 A. It has ~3
+times fewer neighbors than the original version and runs ~3 times
+faster (using LAMMPS on CPUs). I think the accuracy of this shorter
+potential is reasonable, especially for single precision simulation.
+
+The shorter potential has ~44 neighbors as opposed to ~130 for the
+long (original) one.

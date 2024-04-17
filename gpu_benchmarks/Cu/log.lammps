@@ -1,0 +1,12 @@
+LAMMPS (7 Feb 2024 - Development - patch_7Feb2024_update1-312-gedcbd2e761)
+KOKKOS mode with Kokkos version 4.2.1 is enabled (../kokkos.cpp:72)
+  will use up to 1 GPU(s) per node
+package kokkos
+package kokkos neigh full newton off
+print "Simulation of ${element} with ${nx}x${ny}x${nz} unit cells"
+Simulation of Cu with 174x192x6 unit cells
+include ${element}/${element}.inc
+include Cu/${element}.inc
+include Cu/Cu.inc
+ERROR on proc 0: Cannot open input script Cu/Cu.inc: No such file or directory (../input.cpp:1045)
+Last command: Cu/Cu.inc
