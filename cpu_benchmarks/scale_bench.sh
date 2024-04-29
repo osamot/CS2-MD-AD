@@ -1,4 +1,4 @@
-lmp="/p/lustre1/tomaso/lammps-quartz/lammps-git/src/lmp_mpi_quartz"
+lmp="./lmp_mpi_quartz"
 
 
 #for nnodes in 36 32 25 16 8 ; do

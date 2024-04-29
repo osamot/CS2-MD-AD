@@ -1,4 +1,4 @@
-lmp="/p/lustre1/tomaso/lammps-quartz/lammps-git/src/lmp_mpi_quartz"
+lmp="./lmp_mpi_quartz"
 
 ## This script generates max size configurtaions that fits on the
 ## CS-2 machine we run on for this project.
