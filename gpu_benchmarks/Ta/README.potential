@@ -1,5 +1,0 @@
-The 2003 tantalum (Ta) potential by Li can be found in OpenKIM:
-
-   https://openkim.org/files/MO_103054252769_005/newPP1_47-setfl.eam.alloy
-
-It has very few neighbors (~14) and can therefore be very fast, maybe up to 3 times faster than the short cutoff version of Zhou W.
